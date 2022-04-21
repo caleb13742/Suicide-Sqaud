@@ -1,0 +1,142 @@
+/*
+	Author:		    Caleb Hammond
+	Assignment:		Home Page
+	Date:			4/29/2022
+	Purpose:		Project
+*/
+
+/* CSS HEX 
+--apricot: #ffd2baff;
+--macaroni-and-cheese: #ffb790;
+--atomic-tangerine: #f39766;
+--chocolate-web: #d5733f;
+--rust: #b05220;
+darker:
+--atomic-tangerine: #ffa270;
+--mango-tango: #ff8847;
+--spanish-orange: #ed651d;
+--rust: #a75225;
+--russet: #793916;
+*/
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+	background-color: white;
+	
+}
+
+header, nav, div {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+    margin-top: 80px;
+	background-color: #D5733F;
+	color: rgba(255, 212,152);
+	padding: 60px 0;
+}
+
+nav {
+	display: block;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+    border-bottom: 2px solid #B05220;
+	
+	
+}
+
+nav a {
+	display: block;
+    float: left;
+    margin-left: 10px;
+    color: #B05220;
+    width: 150px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+	background-color: #FFB790;
+	color: black;
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color: #D5733F;
+	color: #f39766;
+    border-bottom: 2px solid #f39766;
+}
+
+
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 150px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearnav {
+	clear: both;
+}
+
+
+
+h1, h2 {
+	text-align: center;
+	width: 75%;
+    padding: 15px;
+	margin: auto;
+	border-bottom: 1px solid #B05220;
+	color: black;
+}
+
+h3{
+    text-align: center;
+	width: 75%;
+    margin: auto;
+	color: black;
+}
+
+.list{
+    text-align: center;
+    width: 35%;
+    padding: 15px;
+    margin: auto;
+    color: black;
+}
+
+header h1, header h2 {
+	border-width: 0;
+	color: black;
+}
+
+div {
+	box-sizing: border-box;
+	border: 1px solid;
+	color: black;
+	padding: 20px;
+	background-color: #B05220;
+	margin-bottom: 10px;
+}
+
+
+  
