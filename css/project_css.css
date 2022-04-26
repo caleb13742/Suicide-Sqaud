@@ -1,0 +1,72 @@
+/*
+Name:
+Course: 
+Assignment: 
+Date: 
+*/
+
+/* CSS HEX 
+--apricot: #ffd2baff;
+--macaroni-and-cheese: #ffb790;
+--atomic-tangerine: #f39766;
+--chocolate-web: #d5733f;
+--rust: #b05220;
+
+darker:
+--atomic-tangerine: #ffa270;
+--mango-tango: #ff8847;
+--spanish-orange: #ed651d;
+--rust: #a75225;
+--russet: #793916;
+*/
+
+
+body {
+    background: #ff8820;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+nav {
+    display: block;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+    border-bottom: 5px solid #B05220;
+}
+
+nav a {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    color: #B05220;
+    width: 150px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #f39766;
+    border-bottom: 2px solid #f39766;
+    
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+	text-align: center;
+	color: rgb(243, 243, 243);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    text-align: center;
+  }
