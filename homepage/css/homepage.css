@@ -30,7 +30,7 @@ body {
 }
 
 header, nav, div {
-	width: 900px;
+	width: 700px;
 	margin: auto;
 }
 
@@ -74,19 +74,27 @@ nav a:hover {
 }
 
 
+img.floatLeft1 {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 120px;
+}
 
 img.floatLeft {
 	display: block;
 	float: left;
 	margin: 0 15px;
-	height: 150px;
+	position: relative;
+	top: -2px;
+	height: 130px;
 }
 
 img.floatRight {
 	display: block;
 	float: right;
 	margin: 0 15px;
-	height: 150px;
+	height: 120px;
 }
 
 .clearnav {
@@ -125,9 +133,8 @@ div {
 	box-sizing: border-box;
 	border: 1px solid;
 	color: black;
-	padding: 50px;
 	background-color: #B05220;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 footer {
