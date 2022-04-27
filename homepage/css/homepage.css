@@ -86,8 +86,8 @@ img.floatLeft {
 	float: left;
 	margin: 0 15px;
 	position: relative;
-	top: -2px;
-	height: 130px;
+	top: -30px;
+	height: 140px;
 }
 
 img.floatRight {
@@ -131,7 +131,7 @@ header h1, header h2 {
 
 div {
 	box-sizing: border-box;
-	border: 1px solid;
+	/*border: 1px solid;*/
 	color: black;
 	background-color: #B05220;
 	margin-bottom: 0px;
